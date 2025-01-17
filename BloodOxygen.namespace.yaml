@@ -1,0 +1,9 @@
+namespaces:
+- doc: BloodOxygen extensions
+  name: BloodOxygen
+  schema:
+  - namespace: core
+    neurodata_types:
+    - TimeSeries
+  - source: BloodOxygen.extensions.yaml
+  version: 0.1.0

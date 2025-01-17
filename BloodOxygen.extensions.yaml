@@ -1,0 +1,8 @@
+groups:
+- neurodata_type_def: SpO2
+  neurodata_type_inc: TimeSeries
+  doc: Stores blood oxygen saturation levels
+  attributes:
+  - name: device
+    dtype: text
+    doc: Identifier for the device type
